@@ -1,0 +1,22 @@
+.body{
+    background:#000;
+}
+.muro{
+    background:#212529;
+    padding: 16px;
+    width:500px ;
+    overflow-y: auto;
+  }
+  .party{
+    display: flex;
+}
+.Presentacion{
+    padding:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    padding:25px;
+    width:100%;
+}

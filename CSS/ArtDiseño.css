@@ -1,0 +1,195 @@
+
+.Principal-Art{
+    background: url(https://yt3.ggpht.com/a/AGF-l78vS7X1N45Zz04bZfy8VqMjh6eujOLO10gIHA=s900-c-k-c0xffffffff-no-rj-mo)
+      no-repeat center center fixed;
+      -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+      }
+@media (max-width: 400px) {
+.Centrar{
+  padding:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
+@media (min-width: 400px) {
+.Centrar-Informacion{
+  padding:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 400px) {
+.Centrar-Informacion{
+  padding:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
+@media (min-width: 400px) {
+.Centrar{
+  padding:250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+
+    margin-left: 15px;
+    margin-right: 15px;
+}
+@keyframes tipsy {
+  0 {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) rotate(360deg);
+  }
+}
+
+body {
+  background:#00577D;
+  font-family: helvetica, arial, sans-serif;
+  background-color: #2e2e31;
+}
+.Presentacion{
+  	width:40%;
+    border-radius:5px;
+    background:#fff;
+    border-color:rgb(227, 227, 227);
+   border-width: 1px;
+   border-style: solid; 
+    padding:10px;
+    margin-left: 20px;
+    margin-top:20px;
+    margin-right: 20px;
+}
+.Estilos-Pequeños{
+}
+.Estilos-Big{
+	padding:30px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.a {
+  color: #fffbf1;
+  text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
+  font-size: 80px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: -3px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.a:before,
+.a:after {
+  content: '';
+  padding: .9em .4em;
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  top: 50%;
+  display: block;
+  border: 15px solid red;
+  transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  animation: 90s infinite alternate ease-in-out tipsy;
+}
+
+.a:before {
+  border-color: #0096D6 #0096D6 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  z-index: -1;
+}
+
+.a:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #0096D6 #0096D6;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0);
+  z-index: -1;
+}
+ .carousel-inner > .item > .Presentacion,
+        .carousel-inner > .item > a > .Presentacion  {
+            width:40%;
+    		border-radius:5px;
+    		background:#fff;
+    		border-color:rgb(227, 227, 227);
+   			border-width: 1px;
+  		 	border-style: solid; 
+    		padding:50px;
+    		margin-left: 20px;
+    		margin-top:20px;
+    		margin-right: 20px;
+            margin:auto;
+        }
+        /* Para los margenes del contendor de las fotos. Podes cambiarle el ancho a gusto tambien! */
+        .carousel-control {
+		width: 10%;
+        }
+        .party{
+        float: right;
+		padding:50px;
+      	display: flex;
+  }
+    }
+        .YouArt{
+        padding: 20px;
+        float: left;      	
+        display: flex;
+		color: #fffbf1;
+  		font-size: 30px;
+  		font-weight: bold;
+  		text-decoration: none;
+  }
+  .Form-Registro{
+  	width:25%;
+    border-radius:5px;
+    background:#fff;
+    border-color:rgb(227, 227, 227);
+   border-width: 1px;
+   border-style: solid; 
+    padding:25px;
+    margin-left: 20px;
+    margin-top:20px;
+    margin-right: 20px;
+  }
+  .bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #FEFAF0 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
